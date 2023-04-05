@@ -1,0 +1,16 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>LoginExemple.Web</PageTitle>
+
+
+<header class="site-header sticky-top py-1">
+    <nav class="container d-flex flex-column flex-md-row justify-content-between">
+        <NavLink class="py-2 d-none d-md-inline-block" href="" Match="NavLinkMatch.All">
+            <span class="oi oi-home" aria-hidden="true"></span> Home
+        </NavLink>
+        <LoginDisplay></LoginDisplay>
+    </nav>
+</header>
+<main class="context px-4">
+    @Body
+</main>
